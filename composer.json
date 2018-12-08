@@ -1,5 +1,5 @@
 {
-    "name": "binaryoung/ucenter",
+    "name": "dscmall/ucenter",
     "description": "ucenter client for laravel",
     "license": "MIT",
     "authors": [
@@ -7,6 +7,11 @@
             "name": "young",
             "email": "admin@binaryoung.com",
             "homepage": "http://binaryoung.com",
+            "role": "Developer"
+        },
+        {
+            "name": "carson",
+            "email": "wanganlin@ecmoban.com",
             "role": "Developer"
         }
     ],
