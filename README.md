@@ -1,7 +1,5 @@
 ## Ucenter Client For Laravel5
 
-[![Latest Stable Version](https://poser.pugx.org/dscmall/ucenter/v/stable)](https://packagist.org/packages/dscmall/ucenter) [![Total Downloads](https://poser.pugx.org/dscmall/ucenter/downloads)](https://packagist.org/packages/dscmall/ucenter) [![Latest Unstable Version](https://poser.pugx.org/dscmall/ucenter/v/unstable)](https://packagist.org/packages/dscmall/ucenter) [![License](https://poser.pugx.org/dscmall/ucenter/license)](https://packagist.org/packages/dscmall/ucenter)
-
 ### 安装
 
 * [Packagist](https://packagist.org/packages/dscmall/ucenter)
