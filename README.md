@@ -1,30 +1,23 @@
 ## Ucenter Client For Laravel5
 
-**请在你的 composer.json 中修改 Ucenter 版本号  
- 从 `"binaryoung/ucenter": "dev-master"` 至 `"binaryoung/ucenter": "~1.0.0"`  
- `dev-master` 分支将不再存放旧版本代码，请尽快替换**
-
-
-[![Latest Stable Version](https://poser.pugx.org/binaryoung/ucenter/v/stable)](https://packagist.org/packages/binaryoung/ucenter) [![Total Downloads](https://poser.pugx.org/binaryoung/ucenter/downloads)](https://packagist.org/packages/binaryoung/ucenter) [![Latest Unstable Version](https://poser.pugx.org/binaryoung/ucenter/v/unstable)](https://packagist.org/packages/binaryoung/ucenter) [![License](https://poser.pugx.org/binaryoung/ucenter/license)](https://packagist.org/packages/binaryoung/ucenter)
-
-[![Build Status](https://travis-ci.org/binaryoung/ucenter.svg?branch=master)](https://travis-ci.org/binaryoung/ucenter)
+[![Latest Stable Version](https://poser.pugx.org/dscmall/ucenter/v/stable)](https://packagist.org/packages/dscmall/ucenter) [![Total Downloads](https://poser.pugx.org/dscmall/ucenter/downloads)](https://packagist.org/packages/dscmall/ucenter) [![Latest Unstable Version](https://poser.pugx.org/dscmall/ucenter/v/unstable)](https://packagist.org/packages/dscmall/ucenter) [![License](https://poser.pugx.org/dscmall/ucenter/license)](https://packagist.org/packages/dscmall/ucenter)
 
 ### 安装
 
-* [Packagist](https://packagist.org/packages/binaryoung/ucenter)
-* [GitHub](https://github.com/binaryoung/ucenter)
+* [Packagist](https://packagist.org/packages/dscmall/ucenter)
+* [GitHub](https://github.com/dscmall/ucenter)
 
 只要在你的 `composer.json` 文件require中加入下面内容，就能获得最新版.
 
 ~~~
-"binaryoung/ucenter": "~1.0.0"
+"dscmall/ucenter": "~1.0.0"
 ~~~
 
 然后需要运行 "composer update" 来更新你的项目  
 
 或运行
 ~~~
-composer require binaryoung/ucenter
+composer require dscmall/ucenter
 ~~~
 
 安装完后，在 `app/config/app.php` 文件中找到 `providers` 键，
