@@ -115,7 +115,7 @@ class notemodel {
 		}
 		$this->base->load('misc');
 		$apifilename = isset($app['apifilename']) && $app['apifilename'] ? $app['apifilename'] : 'uc.php';
-		if($app['extra']['apppath'] && @include $app['extra']['apppath'].'./api/'.$apifilename) {
+		if($app['extra']['apppath'] && substr(strrchr($apifilename, '.'), 1, 10) == 'php' && @include $app['extra']['apppath'].'./api/'.$apifilename) {
 			$uc_note = new uc_note();
 			$method = $note['operation'];
 			if(is_string($method) && !empty($method)) {
@@ -135,7 +135,7 @@ class notemodel {
 
 		$returnsucceed = $response != '' && ($response == 1 || is_array(xml_unserialize($response)));
 
-		$closedsqladd = $this->_close_note($note, $this->apps, $returnsucceed, $appid) ? ",closed='1'" : '';//
+		$closedsqladd = $this->_close_note($note, $this->apps, $returnsucceed, $appid) ? ",closed='1'" : '';
 
 		if($returnsucceed) {
 			if($this->operations[$note['operation']][2]) {
@@ -173,7 +173,6 @@ class notemodel {
 		}
 		if($appcount < 1) {
 			return TRUE;
-			//$closedsqladd = ",closed='1'";
 		}
 	}
 
