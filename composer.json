@@ -2,32 +2,22 @@
     "name": "dscmall/ucenter",
     "description": "ucenter client for laravel",
     "license": "MIT",
-    "authors": [
-        {
-            "name": "young",
-            "email": "admin@binaryoung.com",
-            "homepage": "http://binaryoung.com",
-            "role": "Developer"
-        },
-        {
-            "name": "carson",
-            "email": "wanganlin@ecmoban.com",
-            "role": "Developer"
-        }
-    ],
-    "autoload": {
-        "psr-4": {
-            "Binaryoung\\Ucenter\\": "src/"
-        }
-    },
     "require": {
-        "php": ">=5.4.0",
-        "dscmall/kernel": "^1.0"
+        "php": ">=7.4",
+        "dscmall/laravel-filesystem-obs": "^3.1",
+        "dscmall/laravel-filesystem-oss": "^2.1",
+        "dscmall/laravel-scout-elastic": "^7.5",
+        "dscmall/kernel": "^7.4"
     },
     "require-dev": {
         "codeception/codeception": "~2.0",
         "mockery/mockery": "0.9.*",
         "fzaninotto/faker": "~1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Binaryoung\\Ucenter\\": "src/"
+        }
     },
     "minimum-stability": "stable",
     "prefer-stable": true
