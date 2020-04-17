@@ -7,6 +7,7 @@
         "dscmall/laravel-filesystem-obs": "^3.1",
         "dscmall/laravel-filesystem-oss": "^2.1",
         "dscmall/laravel-scout-elastic": "^7.5",
+        "dscmall/laravel-ueditor": "^1.3",
         "dscmall/kernel": "^7.4"
     },
     "require-dev": {
